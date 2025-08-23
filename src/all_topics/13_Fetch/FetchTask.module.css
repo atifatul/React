@@ -1,0 +1,22 @@
+.FetchTaskContainer{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.FetchTaskContainer > h1{
+    margin: 300px 0;
+}
+
+.FetchTaskContainer select{
+    width: 150px;
+    margin: 10px;
+    padding: 5px 10px;
+}
+
+.FetchTaskContainer section{
+    margin: 20rem 0;
+}
