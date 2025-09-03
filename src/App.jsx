@@ -32,6 +32,9 @@ import MemoExample from "./all_topics/17_memo/MemoExample";
 import ParentA1 from "./all_topics/18_hoc/ParentA1";
 import Routing1 from "./all_topics/19_routing/Routing1";
 import Routing2 from "./all_topics/19_routing/Routing2";
+import Fake from "../Practise/Fake";
+import ChildB2 from "./all_topics/18_hoc/ChildB2";
+import ReduxPractice from "./all_topics/reduxExample/ReduxPractice";
 const App = () => {
   return (
     <>
@@ -72,7 +75,7 @@ const App = () => {
 
       {/* <FetchCountries/> */}
 
-      <FetchTasks/>
+      {/* <FetchTasks/> */}
 
       {/* <Flags/> */}
 
@@ -82,8 +85,11 @@ const App = () => {
       {/* <ParentA1/> */}
       {/* <Routing1/> */}
       {/* <Routing2/> */}
-    </>
+      {/* <ChildB2/> */}
+      {/* <Fake /> */}
 
+      <ReduxPractice/>
+    </>
   );
 };
 

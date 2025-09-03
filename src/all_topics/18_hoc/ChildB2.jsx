@@ -6,7 +6,7 @@ const ChildB2 = (props) => {
     
   return (
     <div>
-      <h1>Child B2</h1>
+      <h1>Child B2 {props.data}</h1>
     </div>
   );
 };
